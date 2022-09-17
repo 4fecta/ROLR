@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             public void run() {
                 while (mProgressStatus < 68){
                     mProgressStatus++;
-                    android.os.SystemClock.sleep(50);
+                    android.os.SystemClock.sleep(20);
                     mHandler.post(new Runnable() {
                         @Override
                         public void run() {
@@ -45,12 +45,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                         }
                     });
                 }
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        mLoadingText.setVisibility(View.VISIBLE);
-                    }
-                });
             }
         }).start();
     }
