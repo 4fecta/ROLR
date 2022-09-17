@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Home">
 
-    <androidx.fragment.app.FragmentContainerView
+    <!--<androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/maps"
@@ -17,6 +17,6 @@
         android:layout_marginTop="65dp"
         android:name="com.google.android.gms.maps.SupportMapFragment">
 
-    </androidx.fragment.app.FragmentContainerView>
+    </androidx.fragment.app.FragmentContainerView>-->
 
 </RelativeLayout>
