@@ -26,7 +26,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/col1"
+                android:text="Name"
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
 
@@ -36,7 +36,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/col2"
+                android:text="Points"
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
 
@@ -46,7 +46,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/col3"
+                android:text="CO2 footprint"
                 android:textColor="@android:color/black"
                 android:textSize="18sp" />
 
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Name"
+                android:text="Cem"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -71,7 +71,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Age"
+                android:text="2005"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="2"
@@ -82,7 +82,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Surname"
+                android:text="13"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -96,7 +96,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Name"
+                android:text="David"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -107,7 +107,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Age"
+                android:text="2001"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="2"
@@ -118,7 +118,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Surname"
+                android:text="14"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -136,7 +136,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Name"
+                android:text="Maxwell"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -147,7 +147,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Age"
+                android:text="1956"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -158,7 +158,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Surname"
+                android:text="13"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -169,7 +169,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Name"
+                android:text="Diana"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -180,7 +180,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Age"
+                android:text="1912"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="2"
@@ -191,7 +191,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row1Surname"
+                android:text="12"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -205,7 +205,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Name"
+                android:text="Cindy"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -216,7 +216,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Age"
+                android:text="1899"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="2"
@@ -227,7 +227,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/row2Surname"
+                android:text="12"
                 android:padding="10sp"
                 android:textSize="14sp"
                 android:layout_weight="4"
@@ -245,7 +245,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Name"
+                android:text="Albaran"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -256,7 +256,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Age"
+                android:text="1844"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -267,7 +267,333 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Surname"
+                android:text="11"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow><TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="William"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1831"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            />
+
+    </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Edward"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1779"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Anna"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="1729"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="9"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Muhammad"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1580"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Shibo"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1409"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Iliana"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="1375"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="8"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Morris"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1262"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Xirong"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1231"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                />
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="Jason"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="1100"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="4"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -364,7 +690,7 @@
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Age"
+                android:text="1100"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
@@ -375,333 +701,7 @@
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
                 android:padding="10sp"
-                android:text="@string/row3Surname"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Name"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Age"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Surname"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Name"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Age"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Surname"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-
-        <TableRow android:layout_width="match_parent">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Name"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Age"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Surname"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Name"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Age"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row1Surname"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Name"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Age"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Surname"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-
-        <TableRow android:layout_width="match_parent">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Name"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Age"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Surname"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow><TableRow>
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/row1Name"
-            android:padding="10sp"
-            android:textSize="14sp"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:textColor="@android:color/black"
-            />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/row1Age"
-            android:padding="10sp"
-            android:textSize="14sp"
-            android:layout_weight="2"
-            android:gravity="center_horizontal"
-            android:textColor="@android:color/black"
-            />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="@string/row1Surname"
-            android:padding="10sp"
-            android:textSize="14sp"
-            android:layout_weight="4"
-            android:gravity="center_horizontal"
-            android:textColor="@android:color/black"
-            />
-
-    </TableRow>
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Name"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Age"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/row2Surname"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:textColor="@android:color/black"
-                />
-
-        </TableRow>
-
-        <TableRow android:layout_width="match_parent">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Name"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Age"
-                android:textSize="14sp"
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                android:padding="10sp"
-                android:text="@string/row3Surname"
+                android:text="4"
                 android:textSize="14sp"
                 android:textColor="@android:color/black"
                 />
