@@ -4,22 +4,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RawRes;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
-import android.graphics.Color;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
+import android.os.Looper;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import java.util.*;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
-import com.google.maps.android.heatmaps.Gradient;
 import com.google.maps.android.heatmaps.HeatmapTileProvider;
 
 import org.json.JSONArray;
@@ -28,7 +20,6 @@ import org.json.JSONObject;
 
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -36,22 +27,12 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import android.os.Handler;
-import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.TextView;
-import com.google.android.material.badge.BadgeDrawable;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -60,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private int mProgressStatus = 0;
 
-    private Handler mHandler = new Handler();
+    private Handler mHandler = new Handler(Looper.getMainLooper());
     BottomNavigationView bottomNavigationView;
 
     Home home = new Home();
@@ -125,11 +106,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
-        LatLng sydney = new LatLng(-33.852, 151.211);
+        LatLng chicago = new LatLng(41.881832, -87.623177);
+        /*
         googleMap.addMarker(new MarkerOptions()
                 .position(sydney)
                 .title("Marker in Sydney"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        */
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(chicago));
         addHeatMap(googleMap);
     }
     private void addHeatMap(GoogleMap googleMap) {
@@ -137,18 +120,27 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Get the data: latitude/longitude positions of police stations.
         try {
-            latLngs = readItems(R.raw.police_stations);
+            latLngs = readItems(R.raw.location_data);
         } catch (JSONException e) {
            // Toast.makeText(context, "Problem reading list of locations.", Toast.LENGTH_LONG).show();
         }
 
         // Create a heat map tile provider, passing it the latlngs of the police stations.
         HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
-                .data(latLngs)
+                .data(latLngs).radius(35)
                 .build();
 
         // Add a tile overlay to the map, using the heat map tile provider.
-        TileOverlay overlay = googleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+        Handler handler = new Handler();
+        Runnable r = new Runnable()
+        {
+            @Override
+            public void run(){
+                TileOverlay overlay = googleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+             }
+        };
+        handler.postDelayed(r, 10000);
+
     }
 
     private List<LatLng> readItems(@RawRes int resource) throws JSONException {
