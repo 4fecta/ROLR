@@ -8,6 +8,8 @@ import android.os.Looper;
 import android.widget.TextView;
 
 import java.util.*;
+
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.TileOverlay;
@@ -126,20 +128,30 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         // Create a heat map tile provider, passing it the latlngs of the police stations.
-        HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
-                .data(latLngs).radius(35)
-                .build();
 
         // Add a tile overlay to the map, using the heat map tile provider.
-        Handler handler = new Handler();
-        Runnable r = new Runnable()
-        {
-            @Override
-            public void run(){
-                TileOverlay overlay = googleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
-             }
-        };
-        handler.postDelayed(r, 10000);
+        int sz = latLngs.size() / 83;
+        for (int i = 0; i < 83; i++) {
+            int st = i * sz, ed = (i + 1) * sz;
+            List<LatLng> sub = new ArrayList<>();
+            for (int j = st; j < ed; j++) sub.add(latLngs.get(j));
+            HeatmapTileProvider provider = new HeatmapTileProvider.Builder()
+                    .data(sub).radius(35)
+                    .build();
+
+
+            TileOverlay overlay = googleMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider));
+            //googleMap.animateCamera(CameraUpdateFactory.zoomBy((float) 2));
+            overlay.clearTileCache();
+            Handler handler = new Handler();
+            Runnable r = new Runnable() {
+                @Override
+                public void run() {
+                    overlay.setTransparency(0);
+                }
+            };
+            handler.postDelayed(r, (i == 0) ? 100000 : 20000);
+        }
 
     }
 
