@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mapFragment.getMapAsync(this);
 
         mProgressBar = (ProgressBar) findViewById(R.id.progressbar);
-        mLoadingText = (TextView) findViewById(R.id.LoadingCompleteTextView);
+        mLoadingText = (TextView) findViewById(R.id.ProgressNumber);
 
         new Thread(new Runnable() {
             @Override
