@@ -2,4 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="_684_1000">684/1000</string>
     <string name="level_3">Level 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
