@@ -3,13 +3,11 @@
 <item android:id="@+id/home"
     android:title="Home"
     android:icon="@drawable/ic_baseline_home_24"/>
-    <item android:id="@+id/race"
+<item android:id="@+id/race"
     android:title="Race"
     android:icon="@drawable/ic_baseline_speed_24"/>
 <item android:id="@+id/leaderboard"
     android:title="Leaderboard"
     android:icon="@drawable/ic_baseline_leaderboard_24"/>
-
-
 
 </menu>

@@ -34,17 +34,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_main);
 
         //map stuff*********************************************************************************
-        //SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.maps);
-        //mapFragment.getMapAsync(this);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.maps);
+        mapFragment.getMapAsync(this);
 
         //bottom nav bar stuff**********************************************************************
         bottomNavigationView  = findViewById(R.id.bottom_navigation);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.container,home).commit();
 
-        BadgeDrawable badgeDrawable = bottomNavigationView.getOrCreateBadge(R.id.leaderboard);
-        badgeDrawable.setVisible(true);
-        badgeDrawable.setNumber(8);
+        //BadgeDrawable badgeDrawable = bottomNavigationView.getOrCreateBadge(R.id.leaderboard);
+        //badgeDrawable.setVisible(true);
+        //badgeDrawable.setNumber(8);
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
