@@ -2,6 +2,17 @@
     <string name="app_name">My Application</string>
     <string name="_684_1000">684/1000</string>
     <string name="level_3">Level 3</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="col1">Name</string>
+    <string name="col2">Points</string>
+    <string name="col3">C02 Footprint</string>
+    <string name="row1Name">Ali</string>
+    <string name="row1Age">51</string>
+    <string name="row1Surname">Mohammad</string>
+    <string name="row2Name">Dave</string>
+    <string name="row2Age">45</string>
+    <string name="row2Surname">Smith</string>
+    <string name="row3Name">Jason</string>
+    <string name="row3Age">67</string>
+    <string name="row3Surname">William</string>
+
 </resources>
