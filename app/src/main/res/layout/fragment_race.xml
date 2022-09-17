@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Race">
 
     <TextView
@@ -15,5 +16,32 @@
         android:id="@+id/colored_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ff000000"/>
+        android:background="#ffffffff"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="105dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="610dp"
+        android:src="@drawable/ic_baseline_person_pin_24" />
+
 </RelativeLayout>
