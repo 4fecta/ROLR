@@ -41,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-50dp"
+        android:layout_marginStart="-280dp"
         android:layout_marginTop="590dp"
-        android:src="@drawable/ic_baseline_person_pin_24" />
+        android:src="@drawable/random_person1_modified" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -51,9 +51,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="-80dp"
         android:layout_marginTop="590dp"
-        android:src="@drawable/ic_baseline_person_pin_24" />
+        android:src="@drawable/random_person2_modified" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -61,8 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="110dp"
+        android:layout_marginStart="120dp"
         android:layout_marginTop="590dp"
-        android:src="@drawable/ic_baseline_person_pin_24" />
+        android:src="@drawable/random_person4" />
 
 </RelativeLayout>
